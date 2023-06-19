@@ -1,0 +1,392 @@
+.headera {  
+    position: relative;
+    z-index: 10;
+    .Header {
+        height: 60px;
+        width: 100%;
+        background-color: white;
+        box-shadow: 0px 0px 20px 10px rgb(0 0 0 / 5%);
+        position: fixed;
+        z-index: 20;
+
+    }
+
+    .Nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+        padding: 10px;  
+        box-sizing: border-box;
+    }
+
+    .header-l {
+        display: flex;
+        align-items: center;
+        font-weight: bold;
+        color: black;
+
+        .header-namesite {
+            text-decoration: none;
+            font-weight: 700;
+            color: #4255ff;
+            font-size: 25px;
+            margin-left: 20px;
+            cursor: pointer;
+        }
+
+        .header-l-l {
+            margin: 0px 30px 0px 40px;
+            text-decoration: none;
+            font-weight: 700;
+            color: rgb(77, 76, 76);
+            cursor: pointer;
+            font-size: 20px;
+        }
+
+        .Library > button {
+            background-color: white;
+            border: 0px;
+            cursor: pointer;
+            font-weight: bold;
+            color: rgb(77, 76, 76);
+            font-size: 17px;
+
+        }
+    }
+
+    .header-r{
+        display: flex;
+
+        .profile-img1{
+            width: 40px;
+            border-radius: 100%;
+            margin: 0px 40px 0px 30px;
+        }
+        .buttonprofile{
+            width: 40px;
+            border-radius: 100%;
+            .baitap-img{
+                width: 16px;
+                height: 16px;
+            
+            }
+        }
+    }
+
+    .modal-add , .modal-profile, .modal-libraryy {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        top: 0px;
+    }
+
+    .Library {
+        display: inline;
+    }
+
+    .Library > button {
+        // position: relative;
+        color: rgb(77, 76, 76);
+
+    }
+    
+    .library {
+        position: absolute;
+        left: 100px;
+        top: 70px;
+        width: 500px;
+        // height: 300px;
+        // padding: 20px;
+        background-color: white;
+        box-shadow: 0px 0px 20px 10px rgb(0 0 0 / 5%);
+        border-radius: 20px;
+        z-index: 1;
+        padding: 10px;
+    }
+
+    .library-center{
+        width: auto;
+        height: 200px;
+        overflow-y: scroll;
+        padding: 20px;
+        
+        h4{
+            margin-left: 20px;
+            margin-top: 10px;
+        }
+        .library-img{
+            width: auto;
+            height: 40px;
+            display: flex;
+            p{
+                margin-left: 20px;
+                margin-top: 2px;
+                height: 35px;
+                
+                
+            }
+            .library-img1{
+                height: 20px;
+                width: 20px;
+                border-radius: 100%;
+                margin-left: 20px;
+                margin-top: 5px;
+    
+            }
+    
+        }
+        
+    }
+
+    .library-content11:hover {
+        background-color: #f6f7fb;
+    }
+
+    .library-footer {
+        background-color: white;
+        padding: 10px;
+        border-top: 2px solid gray;
+        cursor: pointer;
+        .allsets{
+    
+                color: #4255ff;
+                font-weight: bold;
+                font-size: 15px;
+            
+        }
+        .allfolders{
+            color: #4255ff;
+            font-weight: bold;
+            font-size: 15px;
+        }
+    }
+
+    
+
+    //nguyen
+    .Add {
+        position: absolute;
+        height: 82px;
+        width: 140px;
+        right: 110px;
+        padding: 10px 0px;
+        top: 70px;
+        background-color: white;
+        border-radius: 5px;
+        box-shadow: 0px 0px 20px 10px rgb(0 0 0 / 5%);
+        .study-set{
+            display: flex;
+            width: auto;
+            height: auto;
+            text-decoration: none;
+            cursor: pointer;
+            .study-img{
+                width: 18px;
+                height: 18px;
+                padding: 10px;
+                
+            }
+            p{
+                width: 100%;
+                padding: 10px;
+                font-weight:500;
+                height: 100%;
+                box-sizing: border-box;
+            }
+
+        }
+        .folder{
+            display: flex;
+            width: auto;
+            height: auto;
+            cursor: pointer;
+            .folder-img{
+                width: 16px;
+                height: 16px;
+                padding: 12px;
+                
+                
+            }
+            p{
+                width: 100%;
+                padding: 10px;
+                font-weight:500;
+                height: 100%;
+                box-sizing: border-box;
+            }
+
+        }
+    }
+
+    .profile-library{
+        position: absolute;
+        height: 150px;
+        width: 180px;
+        right: 50px;
+        top: 70px;
+        border-radius: 10px;
+        background-color: white;
+        box-shadow: 0px 0px 20px 10px rgb(0 0 0 / 5%);
+        .profile-img{
+            display: flex;
+            border-bottom: 1px solid rgb(249, 240, 240);
+            font-size: 14px;
+            .profile-img1{
+                width: 30px;
+                height: 100%;
+                border-radius: 100%;
+                padding: 10px;
+            }
+
+            .profile-p {
+                width: 100%;
+            }
+
+            p{
+                width: 100%;
+                height: 100%;
+                padding: 15px;
+                font-weight: 500;
+                box-sizing: border-box;
+            }
+        }
+        .profile-user{
+            width: auto;
+            height: 50px;
+           
+            display: flex;
+            border-bottom: 1px solid rgb(249, 240, 240);
+            .user-img{
+                width: 25px;
+                height: 25px;
+                margin-top: 15px;
+                margin-left: 13px;
+            }
+            p{
+                margin-top: 15px;
+                margin-left: 27px;
+                font-weight: 500;
+            }
+            .profile-u{
+                text-decoration: none;
+                color: black;
+            }
+        }
+        .out{
+            display: flex;
+            margin: auto;
+            width: auto;
+            height: 30px;
+            text-decoration: none;
+            color: black;
+            cursor: pointer;
+            p{
+               display: flex;
+                margin-top: 10px;
+                font-weight: 500;
+                margin-left: 60px;
+                font-size: 18px;
+            }
+        }
+    }
+
+    .study-set:hover {
+        background-color: rgb(235, 235, 235);
+    }
+
+    .folder:hover {
+        background-color: rgb(235, 235, 235);
+    }
+
+    //modal folder
+
+    .add-folder-modal-app {
+        display: flex;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        position: fixed;
+        top: 0px;
+        z-index: 3;
+        background-color: rgb(191 209 251 / 40%);
+      }
+  
+      .add-folder-box-app {
+        margin: auto;
+        width: 500px;
+        height: 200px;
+        background-color: white;
+        border-radius: 20px;
+        padding: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        
+      }
+
+      .add-folder-box-app-footer {
+
+        display: flex;
+        justify-content: flex-end;
+
+        button {
+            width: 60px;
+            background: blue;
+            color: white;
+            border: 0px;
+            padding: 5px 10px;
+            border-radius: 10px;
+        }
+      }
+
+      .add-folder-box-app-input {
+        width: 100%;
+        margin-top: 30px;
+        height: 32px;
+        border: 0px;
+        border-bottom: 1px solid black;
+        background-color: rgb(245, 245, 252);
+      }
+
+      .library-header{
+        display: flex;
+        height: 50px;
+       
+        border-bottom: 2px solid gray;
+        cursor: pointer;
+        h3{
+            padding: 15px;
+            margin-right: 110px;
+            font-size: 18px;
+        }
+    }
+    
+    
+    .header-r-login {
+        background-color: white;
+        margin-right: 20px;
+        padding: 5px 10px;
+        text-decoration: none;
+        color: rgb(88, 87, 87);
+        border-radius: 10px;
+        height: 25px;
+        font-weight: 500;
+        cursor: pointer;
+    }
+    .header-r-register {
+        background-color: #ffcd1f;
+        margin-right: 20px;
+        padding: 5px 10px;
+        text-decoration: none;
+        color: rgb(88, 87, 87);
+        border-radius: 10px;
+        height: 25px;
+        font-weight: 500;
+        cursor: pointer;
+    }
+    
+    
+}

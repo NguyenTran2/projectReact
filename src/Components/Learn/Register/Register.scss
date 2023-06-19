@@ -1,0 +1,180 @@
+.Login {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    .login-img{
+        background-position: 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        
+        
+    }
+    .formtong{
+        margin: auto;
+        
+        
+        .login-img{
+            
+            width: 24px;
+            height: 24px;
+            margin-right: 10px;
+            margin-top: 7px;
+            
+        }
+        
+        .form1{
+           
+            display: flex;
+            justify-content: space-between;
+            margin-top: 10px;
+            
+        }
+        .form2{
+           
+            width:500px;
+            margin-top: 20px;
+            .email{
+                .input2{
+                    margin-top: 8px;
+                    margin-bottom: 20px;
+                    height: 50px;
+                    width: 450px;
+                    border-radius: 5px;
+                    padding-left: 8px;
+                    color: black
+                }
+            }
+            .container {
+                display: block;
+                position: relative;
+                padding-left: 35px;
+                margin-bottom: 12px;
+                cursor: pointer;
+                font-size: 22px;
+                -webkit-user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+                user-select: none;
+              }
+            .container input {
+                position: absolute;
+                opacity: 0;
+                cursor: pointer;
+                height: 0;
+                width: 0;
+              }
+            .checkmark {
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 25px;
+                width: 25px;
+                background-color: #eee;
+              }
+            .container:hover input ~ .checkmark {
+                background-color: #ccc;
+              }
+              .container input:checked ~ .checkmark {
+                background-color: #2196F3;
+              }
+            .checkmark:after {
+                content: "";
+                position: absolute;
+                display: none;
+              }
+            .container input:checked ~ .checkmark:after {
+                display: block;
+              }
+            .container .checkmark:after {
+                left: 9px;
+                top: 5px;
+                width: 5px;
+                height: 10px;
+                border: solid white;
+                border-width: 0 3px 3px 0;
+                -webkit-transform: rotate(45deg);
+                -ms-transform: rotate(45deg);
+                transform: rotate(45deg);
+              }
+              
+              
+            .user{
+                .input2{
+                    margin-top: 8px;
+                    margin-bottom: 20px;
+                    height: 50px;
+                    width: 450px;
+                    border-radius: 5px;
+                    padding-left: 8px;
+                    color: black
+                }
+            }
+            .password{
+                .input2{
+                    margin-top: 8px;
+                    margin-bottom: 20px;
+                    height: 50px;
+                    width: 450px;
+                    border-radius: 5px;
+                    padding-left: 8px;
+                    color: black
+                }
+            }
+            
+            
+        }
+    
+        .birthday{
+            font-size: 20px;
+            width: 421px;
+            height: 700px;
+            padding: 30px;
+            h1{
+                margin-bottom: 20px;
+                display: flex;
+                justify-content: center;
+            }
+            #thang{
+                width: 102px;
+                height: 38px;
+                padding: 10px 0px 10px 16px;
+                border: 2px solid black;
+                color: #3ccfcf;
+                border-radius: 5px;
+            }
+            #day{
+                width: 102px;
+                height: 38px;
+                padding: 10px 0px 10px 16px;
+                border: 2px solid black;
+                color: #3ccfcf;
+                border-radius: 5px;
+            }
+            #year{
+                width: 102px;
+                height: 38px;
+                padding: 10px 0px 10px 16px;
+                border: 2px solid black;
+                color: #3ccfcf;
+                border-radius: 5px;
+            }
+            .dangnhap{
+                margin-top: 15px;
+                width: 462px;
+                height: 70px;
+                background-color: #3ccfcf;
+                border: 0px;
+                color: white;
+                font-size: 20px;
+                font-weight: bold;
+                border-radius: 10px;
+            }
+        }
+        
+    }
+    
+    
+}

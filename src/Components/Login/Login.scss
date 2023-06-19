@@ -1,0 +1,77 @@
+.Login {
+    display: flex;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: calc(100vh - 60px);
+    .login-img1{
+        background-position: 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        // width: 50%;
+        
+        
+    }
+    .Loginn {
+       
+        margin: auto;
+        // width: 50%;
+        .tieude{
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+
+        }
+
+    }
+    .login-input{
+        padding-left: 8px;
+        width: 500px;
+        height: 70px;
+        padding: auto;
+        margin-bottom: 10px;
+        border-left: 0px;
+        border-right: 0px;
+        border-top: 0px;
+        
+       
+    }
+    ::placeholder{
+        font-size: 17px;
+
+    }
+    .Loginn p{
+        color: black;
+        font-weight: bold;
+        font-size: 17px;
+        margin-bottom: 7px;
+    }
+    .pass{
+        display: flex;
+        justify-content: space-between;
+    }
+    .dichvu p{
+        padding: 20px;
+        font-size: 11px;
+    }
+    .dangnhap{
+        margin-top: 15px;
+        width: 500px;
+        height: 70px;
+        background-color: #3ccfcf;
+        border: 0px;
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .pass1 {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 10px;
+    }
+    .pass1 p{
+        font-size: 14px;
+    }
+    
+}

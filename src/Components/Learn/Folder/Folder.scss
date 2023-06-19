@@ -1,0 +1,118 @@
+.library-all{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    background-color: #f6f7fb;
+    min-height: calc(100vh - 60px);
+    .library-form{
+        width: 1000px;
+        height: calc(100vh - 60px);
+       
+        
+        .library-header{
+            width: auto;
+            height: 160px;
+            display: flex;
+           
+
+            .library-img1{
+                width: 64px;
+                height: 64px;
+                border-radius: 100%;
+                padding: 20px;
+            }
+            p{
+                margin-top: 30px;
+                font-size: 23px;
+                color: black;
+                font-weight: bold;
+            }
+            span{
+                font-size: 18px;
+                
+                font-weight: bold;
+            }
+
+        }
+        .library-search{
+            display: flex;
+            width: auto;
+            height: 50px;
+            
+            border-bottom: 2px solid rgb(26, 25, 25);
+            p{
+                padding: 20px;
+                font-weight: bold;
+            }
+
+        }
+        .library-input{
+            width: auto;
+            height: 100px;
+            
+            display: flex;
+            justify-content: end;
+            input{
+
+                width: 600px;
+                height: 40px;
+                margin-top: 22px;
+                padding: 5px;
+                font-weight: bold;
+                font-size: 15px;
+                border-radius: 5px;
+                border: 0px;
+                
+            }
+        }
+    }
+    .draftall{
+       
+        width: 1000px;
+        height: 150px;
+        display: flex;
+        align-items: center;
+        border-top: 2px solid rgb(170, 168, 168) !important;
+        
+        .draft{
+            border-radius: 10px;
+            background-color: white;
+            width: 1300px;
+            height: 75px;
+            box-shadow: 0px 0px 20px 10px rgb(0 0 0 / 5%);
+            padding-left: 10px;
+            cursor: pointer;
+            .term1{
+                display: flex;
+                padding: 10px;
+                margin-left: 2px;
+                p{
+                    font-weight: 500;
+
+                }
+                span{
+                    margin-left: 8px;
+                    margin-right: 8px;
+                }
+                .term-img1{
+                    width: 16px;
+                    height: 16px;
+                    margin-top: 3px;
+                    border-radius: 100%;
+                    margin-right: 8px;
+                }
+            }
+            .month{
+                margin-bottom: 10px;
+                h2{
+                    font-size: 20px;
+                    margin-left: 10px;
+                    
+                }
+            }
+        }
+    }
+
+}
