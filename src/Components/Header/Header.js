@@ -25,6 +25,8 @@ export default function Header() {
 
   const [login, SetLogin] = useState("")
 
+  const hostLocal = 'https://localhost:7071/';
+  const URLStaging =  'https://tenhost//';
 
   const HandleShowLibrary = () => {
     if(library === "none"){
@@ -39,7 +41,9 @@ export default function Header() {
     SetCssLibrarySet("Blue")
     SetCssLibraryFolder("Black")
 
-    fetch(`https://localhost:7071/api/Courses/GetAll/${localStorage.getItem("ID")}`)
+    
+
+    fetch(`${hostLocal}Courses/GetAll/${localStorage.getItem("ID")}`) 
     .then (res => res.json())
     .then (data => {
       SetDataCourse(data)
